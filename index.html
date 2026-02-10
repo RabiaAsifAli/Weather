@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <meta charset="UTF-8">
+    <title>Weather App</title>
     <script src="script.js"></script>
-    <link rel="stylesheet" href="style.css.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <center>
-    <div class="Weather-app">
-        <h1>Weather App</h1>
-        <input type="text" id="city" placeholder="Enter City Name">
-        <br>
-        <br>
-        <button onclick="getWeather()">Get Weather</button>
-        <div class="result"></div>
-        <h2 id="CityName"></h2>
+<div class="weather-app">
+    <h2>Weather App</h2>
+    <input type="text" id="city" placeholder="Enter city name">
+    <button onclick="getWeather()">Get Weather</button>
+    <div class="result">
+        <h3 id="cityName"></h3>
         <p id="temp"></p>
         <p id="weather"></p>
     </div>
-    </center>
+</div>
 </body>
 </html>
